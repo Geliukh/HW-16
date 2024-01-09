@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-box {
+  background-color: green;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+}
+
+.bg-box::after {
+  background: url(../photos/house.jpg);
+  align-content: center;
+}
+.bg-box{
+  background-color:green;
+  width: auto; 
+  height: 911px;
+  background-image: url(../photos/house.jpg)
+  , url(../photos/grass.png)
+  , url(../photos/lightbulb.png)
+  , url(../photos/donut.png)
+  , url(../photos/hedgehog.webp);
+  background-position: center, bottom left, top, right, left;
+  background-size: auto, 350px, 45px, 45px, 45px ;
+  background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+}
